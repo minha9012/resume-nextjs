@@ -1,163 +1,128 @@
 import { ISkill } from '../component/skill/ISkill';
 
 const programmingLanguages: ISkill.Skill = {
-  category: 'Programming Languages',
+  category: 'Languages',
   items: [
     {
-      title: 'C',
-      level: 3,
+      title: 'Kotlin',
     },
     {
-      title: 'Shell Scripting',
-      level: 3,
+      title: 'Java',
     },
     {
-      title: 'Python',
-      level: 3,
+      title: 'Javascript',
     },
     {
-      title: 'Perl',
-      level: 2,
+      title: 'Node.js',
     },
     {
-      title: 'Golang',
-      level: 2,
+      title: 'HTML/CSS',
     },
     {
-      title: 'Rust',
-      level: 1,
+      title: 'C#',
     },
   ],
 };
 
-const kernelDevelopment: ISkill.Skill = {
-  category: 'Kernel Development',
+const frameworksLibraries: ISkill.Skill = {
+  category: 'Fameworks & Libraries',
   items: [
     {
-      title: 'Kernel Programming',
-      level: 3,
+      title: 'Spring Boot',
     },
     {
-      title: 'GNU Debugger',
-      level: 3,
+      title: 'Express.js',
     },
     {
-      title: 'Memory Management',
-      level: 2,
+      title: 'JPA',
     },
     {
-      title: 'System Call Interface',
-      level: 2,
+      title: 'Coroutine',
+    },
+    {
+      title: 'gRPC',
+    },
+    {
+      title: 'React.js',
     },
   ],
 };
 
-const virtualization: ISkill.Skill = {
-  category: 'Virtualization',
+const infraDatabase: ISkill.Skill = {
+  category: 'Infrastructure & Databases',
   items: [
+    {
+      title: 'Oracle',
+    },
+    {
+      title: 'PostgreSQL',
+    },
+    {
+      title: 'Redis',
+    },
+    {
+      title: 'MongoDB',
+    },
+    {
+      title: 'Linux',
+    },
+    {
+      title: 'Openshift',
+    },
+    {
+      title: 'AWS',
+    },
+    {
+      title: 'Kubernetes',
+    },
     {
       title: 'Docker',
-      level: 3,
-    },
-    {
-      title: 'KVM',
-      level: 3,
-    },
-    {
-      title: 'Xen',
-      level: 2,
-    },
-    {
-      title: 'VirtualBox',
-      level: 2,
-    },
-    {
-      title: 'VMware ESXi',
-      level: 1,
-    },
+    }
   ],
 };
 
-const automation: ISkill.Skill = {
-  category: 'Automation',
+const toolsIdes: ISkill.Skill = {
+  category: 'Tools & IDEs',
   items: [
     {
-      title: 'Ansible',
-      level: 3,
+      title: 'IDEA',
     },
     {
-      title: 'Puppet',
-      level: 3,
+      title: 'VS Code',
     },
     {
-      title: 'Chef',
-      level: 2,
+      title: 'Git',
     },
     {
       title: 'Jenkins',
-      level: 2,
     },
     {
-      title: 'CI/CD Pipelines',
-      level: 1,
+      title: 'Jira',
     },
     {
-      title: 'Infrastructure as Code',
-      level: 1,
+      title: 'Confluence',
     },
   ],
 };
 
-const networkSecurity: ISkill.Skill = {
-  category: 'Network Security',
-  items: [
-    {
-      title: 'iptables',
-      level: 3,
-    },
-    {
-      title: 'OpenSSH',
-      level: 3,
-    },
-    {
-      title: 'OpenSSL',
-      level: 2,
-    },
-    {
-      title: 'NACLs',
-      level: 2,
-    },
-    {
-      title: 'VPN Technologies',
-      level: 2,
-    },
-    {
-      title: 'Intrusion Detection',
-      level: 1,
-    },
-  ],
-};
 
 const misc: ISkill.Skill = {
   category: 'Misc',
   items: [
     {
-      title: 'Coffee Brewing',
+      title: 'Taekwondo',
     },
     {
-      title: "Rubik's Cube Solving",
+      title: "Escape Room Cafe",
     },
     {
-      title: 'Table Tennis',
+      title: 'See a Musical',
     },
     {
-      title: 'Guitar Playing',
+      title: 'Drinking',
     },
     {
-      title: 'Joke Telling',
-    },
-    {
-      title: 'Duct Tape Crafting',
+      title: 'Foodie',
     },
   ],
 };
@@ -166,13 +131,12 @@ const skill: ISkill.Payload = {
   disable: false,
   skills: [
     programmingLanguages,
-    kernelDevelopment,
-    virtualization,
-    automation,
-    networkSecurity,
+    frameworksLibraries,
+    infraDatabase,
+    toolsIdes,
     misc,
   ],
-  tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
+  // tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
 };
 
 export default skill;
