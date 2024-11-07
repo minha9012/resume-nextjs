@@ -37,6 +37,9 @@ const frameworksLibraries: ISkill.Skill = {
       title: 'JPA',
     },
     {
+      title: 'Android',
+    },
+    {
       title: 'Coroutine',
     },
     {
@@ -77,7 +80,7 @@ const infraDatabase: ISkill.Skill = {
     },
     {
       title: 'Docker',
-    }
+    },
   ],
 };
 
@@ -105,7 +108,6 @@ const toolsIdes: ISkill.Skill = {
   ],
 };
 
-
 const misc: ISkill.Skill = {
   category: 'Misc',
   items: [
@@ -113,7 +115,7 @@ const misc: ISkill.Skill = {
       title: 'Taekwondo',
     },
     {
-      title: "Escape Room Cafe",
+      title: 'Escape Room Cafe',
     },
     {
       title: 'See a Musical',
@@ -129,13 +131,7 @@ const misc: ISkill.Skill = {
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [
-    programmingLanguages,
-    frameworksLibraries,
-    infraDatabase,
-    toolsIdes,
-    misc,
-  ],
+  skills: [programmingLanguages, frameworksLibraries, infraDatabase, toolsIdes, misc],
   // tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
 };
 
