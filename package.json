@@ -18,7 +18,7 @@
     "lint": "eslint \"component/**/*\" \"pages/**/*\" \"payload/**/*\" \"*.ts\" --fix",
     "typedoc": "typedoc --excludeExternals"
   },
-  "homepage": "https://uyu423.github.io/resume-nextjs",
+  "homepage": "https://minha9012.github.io/resume-nextjs",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/uyu423/resume-nextjs.git"
@@ -44,7 +44,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@fortawesome/react-fontawesome": "^0.1.15",
     "@types/debug": "^4.1.7",
-    "bootstrap": "5.0.0",
+    "bootstrap": "^4.6.0",
     "chalk": "^4.1.2",
     "debug": "^4.3.2",
     "jquery": "^3.6.0",
