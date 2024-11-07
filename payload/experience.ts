@@ -12,7 +12,6 @@ const experience: IExperience.Payload = {
         'Kotlin/Spring Boot 기반 API 서버 설계 및 개발',
         'Openshift(Red Hat Kubernetes)을 이용한 컨테이너 오케스트레이션',
         '이벤트 플랫폼, 기획전 등 대규모 트래픽 처리 도메인 담당',
-        '신규 서비스인 "꿀템"의 기획, 설계, 개발 담당',
         '레거시 개선 및 유지보수 작업',
         'Datadog 모니터링 시스템 연동, 대시보드 생성 및 Alert 체계 구축',
       ],

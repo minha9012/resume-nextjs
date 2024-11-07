@@ -4,9 +4,9 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
-      title: 'Linux Kernel Optimization Project',
-      startedAt: '2020-06',
-      where: 'Linux Foundation',
+      title: '꿀템 서비스 개발',
+      startedAt: '2024-03',
+      where: '지마켓 (Gmarket)',
       descriptions: [
         {
           content:
