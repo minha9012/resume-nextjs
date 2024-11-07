@@ -37,7 +37,7 @@ function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
 function createNameArea(name: Payload['name']) {
   return (
     <Row>
-      <Col className="text-center text-md-left">
+      <Col className="text-left text-md-left">
         <h1 style={Style.blue}>
           {name.title} <small>{name.small || ''}</small>
         </h1>

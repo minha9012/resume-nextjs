@@ -12,7 +12,7 @@ const profile: IProfile.Payload = {
   image,
   name: {
     title: '이민하',
-    small: '(minggu)',
+    // small: '(minggu)',
   },
   contact: [
     {
