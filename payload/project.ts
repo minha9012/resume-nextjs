@@ -30,12 +30,12 @@ const project: IProject.Payload = {
           href: 'https://minggu92.tistory.com/137',
         },
         {
-          content: 'n%의 구매전환율 달성',
+          content: '50%의 구매전환율 달성',
           weight: 'MEDIUM',
-          descriptions: [
-            { content: '30% improvement in system resource efficiency' },
-            { content: 'Job Scheduler Refactor and Optimization' },
-          ],
+          // descriptions: [
+          //   { content: '30% improvement in system resource efficiency' },
+          //   { content: 'Job Scheduler Refactor and Optimization' },
+          // ],
         },
       ],
     },
@@ -80,7 +80,7 @@ const project: IProject.Payload = {
       ],
     },
     {
-      title: '전시 상품 API 개선',
+      title: '지마켓/옥션 전시 상품 API 개선',
       startedAt: '2023-11',
       endedAt: '2023-12',
       where: '지마켓 (Gmarket)',
