@@ -124,19 +124,13 @@ const misc: ISkill.Skill = {
   category: 'Misc',
   items: [
     {
-      title: 'Taekwondo',
+      title: 'DevOps',
     },
     {
-      title: 'Escape Room Cafe',
+      title: 'Medium',
     },
     {
-      title: 'See a Musical',
-    },
-    {
-      title: 'Drinking',
-    },
-    {
-      title: 'Foodie',
+      title: 'Geeknews',
     },
   ],
 };
