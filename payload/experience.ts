@@ -27,6 +27,12 @@ const experience: IExperience.Payload = {
         'Jenkins',
         'C#',
         '.NET',
+        'Prometheus',
+        'Grafana',
+        'Kibana',
+        'Datadog',
+        'Armeria',
+        'gRPC',
       ],
     },
     {

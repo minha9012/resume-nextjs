@@ -46,6 +46,9 @@ const frameworksLibraries: ISkill.Skill = {
       title: 'gRPC',
     },
     {
+      title: 'Armeria',
+    },
+    {
       title: 'React.js',
     },
   ],
@@ -104,6 +107,15 @@ const toolsIdes: ISkill.Skill = {
     },
     {
       title: 'Confluence',
+    },
+    {
+      title: 'Prometheus',
+    },
+    {
+      title: 'Grafana',
+    },
+    {
+      title: 'Datadog',
     },
   ],
 };
