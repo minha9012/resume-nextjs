@@ -44,7 +44,7 @@ const project: IProject.Payload = {
           href: 'https://minggu92.tistory.com/137',
         },
         {
-          content: '50%의 구매 전환율 달성',
+          content: '75%의 구매 전환율 달성',
           weight: 'MEDIUM',
         },
       ],
@@ -62,13 +62,27 @@ const project: IProject.Payload = {
           content: 'Spring 멀티 모듈 구조와 CQRS 패턴을 도입하여 비즈니스 로직의 의존성을 분리',
         },
         {
-          content: 'gRPC를 적용하여 네트워크 비용 절감 및 API 스키마 사양 확립',
+          content:
+            'gRPC 도입을 통해 네트워크 비용을 절감하고 API 스펙의 일관성을 강제하여 클라이언트-서버 간 통신 안정성을 강화.',
+          descriptions: [
+            {
+              content:
+                '외주 개발자가 코어 비즈니스 로직에 접근하지 못하도록 인터페이스 기반의 호출만 허용하고, 요청 전후 확장 로직만 구현 가능하도록 설계',
+            },
+          ],
         },
         {
-          content: 'Armeria 프레임워크 도입',
+          content:
+            'Armeria 프레임워크를 도입해 gRPC와 RESTful API를 통합적으로 제공하며, 점진적인 기술 전환을 지원',
           descriptions: [
-            { content: '신규 gRPC와 기존 RESTful API의 공존 가능하도록 설정' },
-            { content: 'Spring Framework와 연동하여 러닝 커브를 최소화' },
+            {
+              content:
+                '기존 RESTful API를 사용하는 클라이언트의 호환성을 유지하면서 신규 gRPC API를 병렬적으로 운영',
+            },
+            {
+              content:
+                'Spring Framework와의 연동을 통해 러닝 커브를 최소화하고, 기존 개발 방식과의 호환성을 유지',
+            },
           ],
         },
         {
@@ -111,7 +125,7 @@ const project: IProject.Payload = {
         },
         {
           content:
-            'DeploymentConfig의 Max Surge와 Max Unavailable 값을 조정하여 서버가 순차적으로 Roll Out 되도록 수정',
+            'DeploymentConfig의 Max Surge를 1로 설정하여 한 번에 한 Pod만 배포되도록 했고, Max Unavailable을 0으로 설정하여 기존 Pod가 제거되지 않도록 보장',
         },
         {
           content:
@@ -235,10 +249,12 @@ const project: IProject.Payload = {
         { content: '리눅스 서버 구축 및 방화벽, 네트워크 설정' },
         { content: 'WAS 설정(Wildfly)' },
         {
-          content: '이벤트 중 WAS 서버 다운 현상 발생 →',
+          content:
+            '이벤트 중 WAS의 DB Connection Pool 고갈로 인해 요청 처리 지연 및 응답 실패 발생 →',
           descriptions: [
             {
-              content: 'WAS의 DB Connection Pool 설정이 낮아 서버 다운 원인 확인 및 수정',
+              content:
+                'DB Connection Pool의 최대 연결 수가 트래픽을 감당하지 못한 원인으로 확인 후 설정값 조정 및 문제 해결',
             },
           ],
         },
