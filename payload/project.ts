@@ -9,7 +9,7 @@ const project: IProject.Payload = {
       where: '지마켓 (Gmarket)',
       descriptions: [
         {
-          content: '계층 구조를 기반으로 모든 Database Table을 설계 및 생성',
+          content: '비즈니스에 필요한 모든 Database Table을 설계 및 인덱스 설정',
         },
         {
           content: 'Redis를 Cache Layer로 도입하여 캐싱 전략을 설계',
@@ -88,6 +88,12 @@ const project: IProject.Payload = {
         {
           content: 'Redis 데이터를 Protobuf 형식으로 저장',
           href: 'https://minggu92.tistory.com/130',
+          descriptions: [
+            {
+              content:
+                '가시적인 Redis 데이터 확인이 필요할때에는 Armeria에서 제공하는 DocService를 이용하여 역직렬화 후 확인',
+            },
+          ],
         },
         {
           content: '트랜잭션 의존으로 발생한 중복 발급 문제를 개선',
@@ -205,7 +211,7 @@ const project: IProject.Payload = {
           content: '기획전에 OCR 모듈 연동 작업 수행',
         },
         {
-          content: '다양한 사용자 인터랙션을 바탕으로 다양한 시나리오를 설계 및 검증',
+          content: '웹 접근성을 고려한 사용자 인터랙션을 바탕으로 다양한 시나리오를 설계 및 검증',
         },
         {
           content:
