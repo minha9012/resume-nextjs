@@ -53,7 +53,7 @@ const project: IProject.Payload = {
       where: '지마켓 (Gmarket)',
       descriptions: [
         {
-          content: '비즈니스에 필요한 모든 Database Table을 설계 및 인덱스 설정',
+          content: '모든 DB 테이블 및 인덱스 설계 주도',
         },
         {
           content: 'Redis를 Cache Layer로 도입하여 캐싱 전략을 설계',
@@ -100,11 +100,10 @@ const project: IProject.Payload = {
       where: '지마켓 (Gmarket)',
       descriptions: [
         {
-          content:
-            '기존 SP(Stored Procedure) 호출 방식을 JPA로 전환, 복잡한 쿼리는 QueryDSL로 구현',
+          content: 'SP(Stored Procedure) → JPA 전환, QueryDSL로 복잡 쿼리 대응',
         },
         {
-          content: 'Spring 멀티 모듈 구조와 CQRS 패턴을 도입하여 비즈니스 로직의 의존성을 분리',
+          content: '멀티 모듈 구조와 CQRS 패턴 적용으로 비즈니스 의존성을 분리',
         },
         {
           content:
@@ -242,7 +241,7 @@ const project: IProject.Payload = {
           content: 'NoSQL 정합성을 확보하기 위해 Json Schema로 검증하는 별도 Format 컬렉션 생성',
         },
         {
-          content: '웹, 모바일, 태블릿 등 다양한 프론트로 랜딩하기 위해 GraphQL 적용',
+          content: 'GraphQL 도입으로 다양한 클라이언트 대응',
         },
       ],
     },
