@@ -15,12 +15,6 @@ const programmingLanguages: ISkill.Skill = {
     {
       title: 'Node.js',
     },
-    {
-      title: 'HTML/CSS',
-    },
-    {
-      title: 'C#',
-    },
   ],
 };
 
@@ -31,25 +25,22 @@ const frameworksLibraries: ISkill.Skill = {
       title: 'Spring Boot',
     },
     {
-      title: 'Express.js',
-    },
-    {
       title: 'JPA',
     },
     {
-      title: 'Android',
+      title: 'Coroutine',
     },
     {
-      title: 'Coroutine',
+      title: 'Kafka',
+    },
+    {
+      title: 'Express.js',
     },
     {
       title: 'gRPC',
     },
     {
       title: 'Armeria',
-    },
-    {
-      title: 'React.js',
     },
   ],
 };
@@ -58,10 +49,7 @@ const infraDatabase: ISkill.Skill = {
   category: 'Infrastructure & Databases',
   items: [
     {
-      title: 'Oracle',
-    },
-    {
-      title: 'PostgreSQL',
+      title: 'RDBMS',
     },
     {
       title: 'Redis',
@@ -71,9 +59,6 @@ const infraDatabase: ISkill.Skill = {
     },
     {
       title: 'Linux',
-    },
-    {
-      title: 'Openshift',
     },
     {
       title: 'AWS',
@@ -88,25 +73,10 @@ const infraDatabase: ISkill.Skill = {
 };
 
 const toolsIdes: ISkill.Skill = {
-  category: 'Tools & IDEs',
+  category: 'Tools',
   items: [
     {
-      title: 'IDEA',
-    },
-    {
-      title: 'VS Code',
-    },
-    {
-      title: 'Git',
-    },
-    {
       title: 'Jenkins',
-    },
-    {
-      title: 'Jira',
-    },
-    {
-      title: 'Confluence',
     },
     {
       title: 'Prometheus',
@@ -116,6 +86,15 @@ const toolsIdes: ISkill.Skill = {
     },
     {
       title: 'Datadog',
+    },
+    {
+      title: 'OpenSearch',
+    },
+    {
+      title: 'Openshift',
+    },
+    {
+      title: 'Rancher',
     },
   ],
 };

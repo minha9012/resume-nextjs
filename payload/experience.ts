@@ -5,9 +5,32 @@ const experience: IExperience.Payload = {
   disableTotalPeriod: false,
   list: [
     {
+      title: '현대오토에버 (Hyundai Autoever)',
+      position: '차량제어서비스개발팀, Backend Developer',
+      startedAt: '2025-01',
+      descriptions: [
+        '디지털키 1, 2 내수 시스템 개발 및 서버 관리',
+        'Kubernetes, AWS 포함한 인프라 작업',
+        'DB 쿼리 분석 및 index, 프로시저 설정',
+        '레거시 개선 및 유지보수 작업',
+      ],
+      skillKeywords: [
+        'Java',
+        'Spring Boot',
+        'PostgreSQL',
+        'Kafka',
+        'Tomcat',
+        'Jenkins',
+        'Grafana',
+        'OpenSearch',
+        'PinPoint',
+      ],
+    },
+    {
       title: '지마켓(Gmarket)',
       position: 'Web Frontend팀, Web Service Developer',
       startedAt: '2022-05',
+      endedAt: '2024-12',
       descriptions: [
         'Kotlin/Spring Boot 기반 API 서버 설계 및 개발',
         'Openshift(Red Hat Kubernetes)을 이용한 컨테이너 오케스트레이션',

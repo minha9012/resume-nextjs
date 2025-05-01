@@ -4,8 +4,52 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
+      title: '디지털키 시스템 고도화',
+      startedAt: '2025-01',
+      where: '현대오토에버 (Hyundai Autoever)',
+      descriptions: [
+        {
+          content: '디지털키1 레거시 환경 개선 작업 진행중',
+          descriptions: [
+            {
+              content: '현대차 자체 프레임웍(able framework) to Spring Boot',
+            },
+            {
+              content: 'Jeus WAS to Nginx, Tomcat',
+            },
+          ],
+        },
+        {
+          content: '디지털키1 GC 수행 개선',
+          descriptions: [
+            {
+              content: 'Heap 메모리 비정상적인 GC 수행 패턴 확인',
+            },
+            {
+              content: '리눅스 서버에서 jvm 덤프 통해 소스 코드상 메모리 누수 로직 확인',
+            },
+            {
+              content: 'Parallel GC를 G1 GC로 수행 알고리즘 변경',
+            },
+          ],
+        },
+        {
+          content: '차량생산정보 외부 DB 배치 작업을 Kafka 메세지 송수신할 수 있도록 변경 ',
+        },
+        {
+          content: '디지털키2 모니터링 고도화',
+          descriptions: [
+            {
+              content: 'OpenSearch의 Anomaly Detector 기능 활용한 비정상 인입 탐지',
+            },
+          ],
+        },
+      ],
+    },
+    {
       title: '꿀템 서비스 개발',
       startedAt: '2024-03',
+      endedAt: '2024-12',
       where: '지마켓 (Gmarket)',
       descriptions: [
         {
@@ -50,8 +94,9 @@ const project: IProject.Payload = {
       ],
     },
     {
-      title: '이벤트 플랫폼 차세대',
+      title: '이벤트 플랫폼 차세대 개편',
       startedAt: '2024-02',
+      endedAt: '2024-10',
       where: '지마켓 (Gmarket)',
       descriptions: [
         {
@@ -147,7 +192,7 @@ const project: IProject.Payload = {
       ],
     },
     {
-      title: '기획전 차세대',
+      title: '기획전 차세대 개편',
       startedAt: '2023-02',
       endedAt: '2023-10',
       where: '지마켓 (Gmarket)',

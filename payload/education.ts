@@ -5,6 +5,12 @@ const education: IEducation.Payload = {
 
   list: [
     {
+      title: 'Kotlin Coroutine 실전',
+      subTitle: 'NEXTSTEP',
+      startedAt: '2025-04',
+      endedAt: '2025-04',
+    },
+    {
       title: '도커(Dokcer) 컨테이너와 Kubernetes(쿠버네티스) 구축 실무',
       subTitle: '구트아카데미',
       startedAt: '2022-04',
