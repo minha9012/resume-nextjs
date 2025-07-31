@@ -5,6 +5,12 @@ const presentation: IPresentation.Payload = {
 
   list: [
     {
+      title: 'CKA( Certified Kubernetes Administrator)',
+      subTitle: 'CNCF (LF-7zmxqsj4o8)',
+      at: '2025-07',
+      descriptions: [],
+    },
+    {
       title: 'ADSP(데이터 분석 준전문가)',
       subTitle: '한국데이터산업진흥원 (ADsP-032004366)',
       at: '2022-03',
