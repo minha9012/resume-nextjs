@@ -4,12 +4,43 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
+      title: '앱 로그 검증 자동화 PoC (talcak)',
+      startedAt: '2025-08',
+      endedAt: '진행중',
+      where: '토스 (Toss)',
+      descriptions: [
+        {
+          content: '사내 앱 로그 검증 자동화를 위한 PoC 서버 애플리케이션 단독 개발',
+        },
+        {
+          content: '서버 및 DB 구조 설계 후 실물 기기 자동화 시스템(네뷸라)과 연동',
+        },
+        {
+          content:
+            '검증 기준의 모호함을 해결하기 위해 실행 성공 / 검증 성공 / 로그 입수 기준으로 QA 흐름 재정의',
+        },
+        {
+          content: 'run과 ValidationResult 개념을 분리하여 검증 결과 모델을 정리',
+        },
+        {
+          content: 'ElasticSearch 및 Kibana 기반 로그 분석으로 로그 미입수 원인 규명',
+        },
+        {
+          content: '스케줄 실행 단위 추적을 위해 scheduleExecutionUuid 도입',
+        },
+        {
+          content: '분리돼 있던 검증 관련 API와 서비스를 통합하여 유지보수성 개선',
+        },
+      ],
+    },
+    {
       title: '디지털키 시스템 고도화',
       startedAt: '2025-01',
+      endedAt: '2025-07',
       where: '현대오토에버 (Hyundai Autoever)',
       descriptions: [
         {
-          content: '디지털키1 레거시 환경 개선 작업 진행중',
+          content: '디지털키1 레거시 환경 개선 작업 진행',
           descriptions: [
             {
               content: '현대차 자체 프레임웍(able framework) to Spring Boot',
@@ -248,7 +279,7 @@ const project: IProject.Payload = {
     {
       title: '기획전 a11y(접근성) 개선',
       startedAt: '2022-10',
-      endedAt: '2022-12',
+      endedAt: '12',
       where: '지마켓 (Gmarket)',
       descriptions: [
         {

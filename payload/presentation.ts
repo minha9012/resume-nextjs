@@ -29,15 +29,21 @@ const presentation: IPresentation.Payload = {
       descriptions: [],
     },
     {
-      title: '컴퓨터 활용능력 1급',
-      subTitle: '대한상공회의소 (18-K9-044231)',
-      at: '2018-07',
+      title: '정보처리기사',
+      subTitle: '한국산업인력공단 (19201071074O)',
+      at: '2019-05',
       descriptions: [],
     },
     {
-      title: '정보처리기사',
-      subTitle: '한국산업인력공단 (19201071074O)',
-      at: '2018-05',
+      title: 'SQLD',
+      subTitle: '한국데이터산업진흥원 (SQLD-0321276)',
+      at: '2019-04',
+      descriptions: [],
+    },
+    {
+      title: '컴퓨터 활용능력 1급',
+      subTitle: '대한상공회의소 (18-K9-044231)',
+      at: '2018-07',
       descriptions: [],
     },
     {

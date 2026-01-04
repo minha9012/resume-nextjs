@@ -5,9 +5,29 @@ const experience: IExperience.Payload = {
   disableTotalPeriod: false,
   list: [
     {
+      title: '토스 (Toss)',
+      position: '토스 커머스, Server Developer',
+      startedAt: '2025-08',
+      descriptions: [
+        '사내 앱 로그 검증 자동화를 위한 PoC 서버 애플리케이션 단독 개발',
+        '실물 기기 자동화 시스템(네뷸라) 및 로그 파이프라인 연동',
+        '검증 기준 및 QA 흐름 재정의로 검증 프로세스 안정화',
+      ],
+      skillKeywords: [
+        'Kotlin',
+        'Spring Boot',
+        'MySQL',
+        'Redis',
+        'Kafka',
+        'ElasticSearch',
+        'Kibana',
+      ],
+    },
+    {
       title: '현대오토에버 (Hyundai Autoever)',
       position: '차량제어서비스개발팀, Backend Developer',
       startedAt: '2025-01',
+      endedAt: '2025-07',
       descriptions: [
         '디지털키 1, 2 내수 시스템 개발 및 서버 관리',
         'Kubernetes, AWS 포함한 인프라 작업',
