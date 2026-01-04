@@ -19,12 +19,6 @@ const project: IProject.Payload = {
             'PoC를 통해 실행 성공 / 검증 성공 / 로그 입수 기준을 재정의하고 QA 흐름을 구조적으로 개선',
         },
         {
-          content: 'run과 ValidationResult 개념을 분리하여 검증 결과 모델을 명확히 정리',
-        },
-        {
-          content: 'ElasticSearch 및 Kibana 분석으로 동일 시나리오 내 로그 미입수 원인을 규명',
-        },
-        {
           content:
             '스케줄 실행 단위 추적을 위해 scheduleExecutionUuid를 도입하여 실행·검증·로그 간 연관성 확보',
         },
@@ -34,6 +28,17 @@ const project: IProject.Payload = {
         },
         {
           content: '통합 어드민 및 Flowise 기반 LLM 연동으로 검증 자동화와 운영 효율성 확대',
+        },
+        {
+          content: '효용성 입증',
+          descriptions: [
+            {
+              content: '커머스 도메인에서 선적용 후 전체 계열사로 확대 적용 예정',
+            },
+            {
+              content: '특허 출원 진행중',
+            },
+          ],
         },
       ],
     },

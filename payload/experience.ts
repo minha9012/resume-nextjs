@@ -6,7 +6,7 @@ const experience: IExperience.Payload = {
   list: [
     {
       title: '토스 (Toss)',
-      position: '토스 커머스, Server Developer',
+      position: 'Commerce Log Automation, Server Developer',
       startedAt: '2025-08',
       descriptions: [
         '사내 앱 로그 검증 자동화 서버 애플리케이션 개발 및 운영 담당',
