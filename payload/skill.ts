@@ -28,7 +28,13 @@ const frameworksLibraries: ISkill.Skill = {
       title: 'JPA',
     },
     {
+      title: 'Query DSL',
+    },
+    {
       title: 'Coroutine',
+    },
+    {
+      title: 'Web Flux',
     },
     {
       title: 'Kafka',
