@@ -283,7 +283,7 @@ const project: IProject.Payload = {
     {
       title: '기획전 a11y(접근성) 개선',
       startedAt: '2022-10',
-      endedAt: '12',
+      endedAt: '2022-12',
       where: '지마켓 (Gmarket)',
       descriptions: [
         {
