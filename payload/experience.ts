@@ -9,9 +9,10 @@ const experience: IExperience.Payload = {
       position: '토스 커머스, Server Developer',
       startedAt: '2025-08',
       descriptions: [
-        '사내 앱 로그 검증 자동화를 위한 PoC 서버 애플리케이션 단독 개발',
-        '실물 기기 자동화 시스템(네뷸라) 및 로그 파이프라인 연동',
-        '검증 기준 및 QA 흐름 재정의로 검증 프로세스 안정화',
+        '사내 앱 로그 검증 자동화 서버 애플리케이션 개발 및 운영 담당',
+        'Kotlin/Spring Boot 기반 API 서버 및 MySQL 데이터 모델 설계',
+        '실물 기기 자동화 시스템(네뷸라) 및 로그 파이프라인 연동 개발',
+        'Flowise 기반 LLM 연동 개발 및 검증 자동화 기능 확장',
       ],
       skillKeywords: [
         'Kotlin',
@@ -21,6 +22,8 @@ const experience: IExperience.Payload = {
         'Kafka',
         'ElasticSearch',
         'Kibana',
+        'LLM',
+        'Flowise',
       ],
     },
     {

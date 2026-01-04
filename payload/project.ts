@@ -4,32 +4,36 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
-      title: '앱 로그 검증 자동화 PoC (talcak)',
+      title: '앱 로그 검증 자동화 시스템',
       startedAt: '2025-08',
       endedAt: '진행중',
       where: '토스 (Toss)',
       descriptions: [
         {
-          content: '사내 앱 로그 검증 자동화를 위한 PoC 서버 애플리케이션 단독 개발',
-        },
-        {
-          content: '서버 및 DB 구조 설계 후 실물 기기 자동화 시스템(네뷸라)과 연동',
+          content:
+            '사내 앱 로그 검증 과정에서 검증 기준의 불명확성과 로그 미입수로 인한 신뢰도 저하를 핵심 문제로 정의',
+          weight: 'MEDIUM',
         },
         {
           content:
-            '검증 기준의 모호함을 해결하기 위해 실행 성공 / 검증 성공 / 로그 입수 기준으로 QA 흐름 재정의',
+            'PoC를 통해 실행 성공 / 검증 성공 / 로그 입수 기준을 재정의하고 QA 흐름을 구조적으로 개선',
         },
         {
-          content: 'run과 ValidationResult 개념을 분리하여 검증 결과 모델을 정리',
+          content: 'run과 ValidationResult 개념을 분리하여 검증 결과 모델을 명확히 정리',
         },
         {
-          content: 'ElasticSearch 및 Kibana 기반 로그 분석으로 로그 미입수 원인 규명',
+          content: 'ElasticSearch 및 Kibana 분석으로 동일 시나리오 내 로그 미입수 원인을 규명',
         },
         {
-          content: '스케줄 실행 단위 추적을 위해 scheduleExecutionUuid 도입',
+          content:
+            '스케줄 실행 단위 추적을 위해 scheduleExecutionUuid를 도입하여 실행·검증·로그 간 연관성 확보',
         },
         {
-          content: '분리돼 있던 검증 관련 API와 서비스를 통합하여 유지보수성 개선',
+          content:
+            'PoC 검증 결과를 바탕으로 운영 서비스를 전제로 한 구조로 전환하고 배포·운영 체계를 정립',
+        },
+        {
+          content: '통합 어드민 및 Flowise 기반 LLM 연동으로 검증 자동화와 운영 효율성 확대',
         },
       ],
     },
