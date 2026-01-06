@@ -7,7 +7,7 @@ const project: IProject.Payload = {
       title: '앱 로그 검증 자동화 시스템',
       startedAt: '2025-08',
       endedAt: '2026-01',
-      where: '토스 (Toss)',
+      where: '비바리퍼블리카 (Viva Republica)',
       descriptions: [
         {
           content:

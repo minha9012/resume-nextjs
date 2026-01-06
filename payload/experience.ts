@@ -5,10 +5,11 @@ const experience: IExperience.Payload = {
   disableTotalPeriod: false,
   list: [
     {
-      title: '토스 (Toss)',
+      title: '비바리퍼블리카 (Viva Republica)',
       position: 'Commerce Log Automation팀, Server Developer',
       startedAt: '2025-08',
       descriptions: [
+        '토스 코어 내에 커머스 도메인 소속',
         '사내 앱 로그 검증 자동화 서버 애플리케이션 개발 및 운영 담당',
         'Kotlin/Spring Boot 기반 API 서버 및 MySQL 데이터 모델 설계',
         '실물 기기 자동화 시스템(네뷸라) 및 로그 파이프라인 연동 개발',
