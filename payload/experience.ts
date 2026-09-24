@@ -6,14 +6,15 @@ const experience: IExperience.Payload = {
   list: [
     {
       title: '비바리퍼블리카 (Viva Republica)',
-      position: 'Commerce Log Automation팀, Server Developer',
+      position: 'Ads Log Automation팀, Server Developer (PO 겸임)',
       startedAt: '2025-08',
       descriptions: [
-        '토스 코어 내에 커머스 도메인 소속',
-        '사내 앱 로그 검증 자동화 서버 애플리케이션 개발 및 운영 담당',
-        'Kotlin/Spring Boot 기반 API 서버 및 MySQL 데이터 모델 설계',
-        '실물 기기 자동화 시스템(네뷸라) 및 로그 파이프라인 연동 개발',
-        'Flowise 기반 LLM 연동 개발 및 검증 자동화 기능 확장',
+        '토스 코어 내에서 커머스 로그 자동화로 시작해 광고 전환 검수까지 확장한 앱 로그 검증 자동화 플랫폼 팀',
+        '서버 개발 전담으로 시작해 팀 리드로 성장, Kotlin/Spring Boot 기반 API 서버 및 MySQL 데이터 모델 설계',
+        '2026.05~ 광고 전환 로그 검수 PO 겸임, 광고 프로덕트·데이터·캠페인 팀과 판정 기준 수립 및 협업',
+        '2026.07 팀명이 Ads Log Automation팀으로 변경, 커머스 로그 자동화도 병행 운영',
+        '실물 기기 자동화 시스템 및 로그 파이프라인 연동, Flowise 기반 LLM 연동으로 AI 정답지 자동 생성',
+        '플랫폼 서버에 MCP 서버를 내장해 팀 내 셀프서비스 디버깅 체계 구축',
       ],
       skillKeywords: [
         'Kotlin',
@@ -25,6 +26,7 @@ const experience: IExperience.Payload = {
         'Kibana',
         'LLM',
         'Flowise',
+        'MCP',
       ],
     },
     {
