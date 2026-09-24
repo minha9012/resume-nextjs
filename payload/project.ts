@@ -122,7 +122,7 @@ const project: IProject.Payload = {
               content: '전사 발표(코어 얼라인먼트 데이, 2026.07)에서 라이브 데모로 소개',
             },
             {
-              content: '특허 출원 진행중',
+              content: '커머스 로그 자동화 단계에서 관련 특허 2건 출원',
             },
           ],
         },
