@@ -21,6 +21,7 @@ const experience: IExperience.Payload = {
         'Redis',
         'Kafka',
         'ElasticSearch',
+        'StarRocks',
         'Kibana',
         'LLM',
         'Flowise',

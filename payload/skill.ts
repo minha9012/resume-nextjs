@@ -64,6 +64,12 @@ const infraDatabase: ISkill.Skill = {
       title: 'MongoDB',
     },
     {
+      title: 'Elasticsearch',
+    },
+    {
+      title: 'StarRocks',
+    },
+    {
       title: 'Linux',
     },
     {
@@ -74,6 +80,24 @@ const infraDatabase: ISkill.Skill = {
     },
     {
       title: 'Docker',
+    },
+  ],
+};
+
+const aiLlm: ISkill.Skill = {
+  category: 'AI / LLM',
+  items: [
+    {
+      title: 'LLM',
+    },
+    {
+      title: 'Flowise',
+    },
+    {
+      title: 'MCP',
+    },
+    {
+      title: 'Spring AI',
     },
   ],
 };
@@ -97,10 +121,16 @@ const toolsIdes: ISkill.Skill = {
       title: 'OpenSearch',
     },
     {
+      title: 'Kibana',
+    },
+    {
       title: 'Openshift',
     },
     {
       title: 'Rancher',
+    },
+    {
+      title: 'Slack Block Kit',
     },
   ],
 };
@@ -122,7 +152,7 @@ const misc: ISkill.Skill = {
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [programmingLanguages, frameworksLibraries, infraDatabase, toolsIdes, misc],
+  skills: [programmingLanguages, frameworksLibraries, infraDatabase, aiLlm, toolsIdes, misc],
   // tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
 };
 
